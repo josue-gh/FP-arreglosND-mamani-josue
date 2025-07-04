@@ -13,5 +13,25 @@ main()
 	 cout<<endl;
  }
  
+ cout<<"la matriz dada es: "<<endl;
+ for(int i=0; i<4; i++){
+ 	for (int j=0; j<4; j++){
+ 		
+ 		cout<<matriz[i][j]<<" ";
+	 }
+	 cout<<endl;
+ }
+ 
+int max=matriz[0][0];
+for(int i=0; i<4; i++){
+	for(int j=0; j<4; j++){
+		if(max<matriz[i][j]){
+			max=matriz[i][j];
+		}
+	}
+}
+
+cout<<"el valor maximo de la matriz es: "<<max;
+ 
  return 0;
 } 

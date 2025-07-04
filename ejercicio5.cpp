@@ -31,7 +31,19 @@ for(int i=0; i<4; i++){
 	}
 }
 
-cout<<"el valor maximo de la matriz es: "<<max;
+
+int min=matriz[0][0];
+for(int i=0; i<4; i++){
+	for(int j=0; j<4; j++){
+		if(min>matriz[i][j]){
+			min=matriz[i][j];
+		}
+	}
+}
+cout<<endl;
+cout<<"el valor maximo de la matriz es: "<<max<<endl;
+cout<<"el valor minimo de la matriz es: "<<min<<endl;
+
  
  return 0;
 } 

@@ -21,10 +21,10 @@ main()
  }
  
  cout<<"la matriz rotada 90 grados es: "<<endl;
-   for(int i=3; i>=0; i--){
- 	for(int j=0; j<4; j++){
- 		cout<<matriz[i][j]<<endl;
+   for(int j=0; j<4; j++){
+ 	for(int i=3; i>=0; i--){
+ 		cout<<matriz[i][j]<<" ";
 	 }
-	 cout<<" ";
+	 cout<<endl;
  }
 } 

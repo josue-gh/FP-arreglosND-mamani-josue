@@ -10,25 +10,25 @@
 	 };
 	 
 	//mostramos la matriz 
-	cout<<los valores de una matriz 3x3 es: <<endl;
+	cout<<"los valores de una matriz 3x3 es: "<<endl;
 	 for(int i=0; i<3; i++){
 	 	for(int j=0; j<3; j++){
-	 		cout<<matriz[i][j]<< ;
+	 		cout<<matriz[i][j]<<" ";
 		 }
 		 cout<<endl;
 	 }
 	 
 	 int m, num;
 	 
-	 cout<<ingrese un numero de la matriz dada <<endl;
+	 cout<<"ingrese un numero de la matriz dada "<<endl;
 	 cin>>num;
 	 cout<<endl;
-	 cout<<el numero dos se encuentra en: <<endl;
+	 cout<<"el numero dos se encuentra en: "<<endl;
 	 for(int i=0; i<3; i++){
 	 	for(int j=0; j<3; j++){
 	 		m=matriz[i][j];
 	 		if(m== num){
-	 			cout<<fila: <<i<<, columna: <<j<<endl;
+	 			cout<<"fila: "<<i<<", columna: "<<j<<endl;
 			 }
 		 }
 	 }
